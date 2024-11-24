@@ -11,14 +11,15 @@ body {
 
 .container {
     /* color: white; */
-    width: 64%;
-    margin: 0 auto;
+    max-width: 1199px;
+    margin: auto;
 }
 
 /* --header-- */
 .header {
-    margin-top: 40px;
-    top: 35px;
+    padding-top: 50px;
+    position: absolute;
+    top: 0;
     left: 0;
     width: 100%;
 }
@@ -93,7 +94,11 @@ a:hover span{
 
 /* --Banner-- */
 .banner {
-    padding: 40px 0;
+    padding-top: 180px;
+    overflow: hidden;
+    background-image: url(../Samar/pic2.png);
+    background-position: top;
+    background-size: 100%;
 }
 
 .banner__content p {
@@ -149,7 +154,7 @@ a:hover span{
 
  /* Carousel */
  .carousel{
-    /* background: #fff; */
+    background-image: url(../Samar/bg2.png);
     background-size: cover;
     background-position: top center;
     text-align: center;
@@ -199,7 +204,12 @@ a:hover span{
 
  /* start about us */
 .aboutus {
-    padding: 20px 0;
+    background-image: url(../Samar/bg15.png);
+    background-size: 100%;
+    background-position: center right;
+    background-repeat: no-repeat;
+    padding-bottom: 85px;
+    overflow: hidden;
 }
 
 .aboutus .container{
